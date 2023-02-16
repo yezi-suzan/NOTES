@@ -1,0 +1,548 @@
+Date: Thu, 16 Feb 2023 03:15:09 -0800 (PST)
+Message-ID: <10153113.231755.1676546109439@localhost>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_231754_1068976227.1676546109403"
+
+------=_Part_231754_1068976227.1676546109403
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>[Base Image]</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>[Base Image]</h1>
+    <div class=3D"Section1">
+        <div class=3D"contentLayout2">=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<a href=3D"/display/PRJRN/%5BPinormOS+Base%5D+Build+Info">[PinormOS Base] B=
+uild Info</a>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h1 id=3D"id-[BaseImage]-JenkinsProject"><span style=3D"letter-spacing: -0.=
+01em;">Jenkins Project</span></h1>
+<h2 id=3D"id-[BaseImage]-Info"><span style=3D"letter-spacing: -0.01em;"><st=
+rong>Info</strong></span></h2>
+<div class=3D"table-wrap">
+<table class=3D"wrapped fixed-table confluenceTable" style=3D"margin-left: =
+30.0px;">
+<colgroup>
+<col style=3D"width: 138.0px;">
+<col style=3D"width: 468.0px;">
+</colgroup>
+<tbody style=3D"margin-left: 30.0px;">
+<tr style=3D"margin-left: 30.0px;">
+<th style=3D"margin-left: 30.0px;" class=3D"confluenceTh"><p>Name&nbsp;</p>=
+</th>
+<td style=3D"margin-left: 30.0px;" class=3D"confluenceTd">BaseImage</td>
+</tr>
+<tr style=3D"margin-left: 30.0px;">
+<th style=3D"margin-left: 30.0px;" class=3D"confluenceTh"><span style=3D"co=
+lor: rgb(51,51,51);">Full project name</span></th>
+<td style=3D"margin-left: 30.0px;" class=3D"confluenceTd">PinormOS/BaseImag=
+e</td>
+</tr>
+<tr style=3D"margin-left: 30.0px;">
+<th style=3D"margin-left: 30.0px;" class=3D"confluenceTh">Project URL&nbsp;=
+&nbsp;</th>
+<td style=3D"margin-left: 30.0px;" class=3D"confluenceTd"><a class=3D"exter=
+nal-link" href=3D"http://jenkins-sj2.synaptics.com:8080/job/PinormOS/job/Ba=
+seImage/" rel=3D"nofollow">http://jenkins-sj2.synaptics.com:8080/job/Pinorm=
+OS/job/BaseImage/</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><br></p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h2 id=3D"id-[BaseImage]-Configure"><strong>Configure&nbsp;</strong></h2>
+<h3 id=3D"id-[BaseImage]-General"><strong>General</strong></h3>
+<ul>
+<li><p><span style=3D"color: rgb(51,51,51);">This project is parameterized<=
+/span></p></li>
+</ul>
+<div class=3D"table-wrap">
+<table class=3D"wrapped fixed-table confluenceTable" style=3D"margin-left: =
+60.0px;">
+<colgroup>
+<col style=3D"width: 81.0px;">
+<col style=3D"width: 117.0px;">
+<col style=3D"width: 83.0px;">
+<col style=3D"width: 726.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th colspan=3D"1" class=3D"confluenceTh"><p>Type</p></th>
+<th class=3D"confluenceTh"><p>Name</p></th>
+<th class=3D"confluenceTh"><p>Default</p></th>
+<th colspan=3D"1" class=3D"confluenceTh"><p>Comment</p></th>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><p>Node</p></td>
+<td class=3D"confluenceTd"><p>NODE</p></td>
+<td class=3D"confluenceTd"><p>bakery</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>Where this job could potentiall=
+y be executed on.&nbsp;<strong>Must be where the toolchain is installed.</s=
+trong></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><p>Boolean</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>UploadAndTag</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>True</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>If True, the .deb file will be =
+uploaded to the apt repository, and a tag with version-build will be added =
+and pushed.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><br></p>
+<p><br></p>
+<p><br></p>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h3 id=3D"id-[BaseImage]-SourceCodeManagement"><strong><span style=3D"color=
+: rgb(51,51,51);">Source Code Management</span></strong></h3>
+<ul>
+<li>None</li>
+<li><p><s><span style=3D"color: rgb(51,51,51);">Git&nbsp;</span>Repositorie=
+</s></p></li>
+</ul>
+<div class=3D"table-wrap">
+<table class=3D"wrapped fixed-table confluenceTable" style=3D"margin-left: =
+60.0px;">
+<colgroup>
+<col style=3D"width: 171.0px;">
+<col style=3D"width: 541.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p><s><strong><span style=3D"color: rgb(51,51,51=
+);">Repository URL</span></strong></s></p></th>
+<td class=3D"confluenceTd"><p><s><a href=3D"ssh://gitms@git.synaptics.com/g=
+it/sw/PinormOS/base/base_img.git" rel=3D"nofollow">ssh://gitms@git.synaptic=
+s.com/git/sw/PinormOS/base/base_img.git</a></s></p></td>
+</tr>
+<tr style=3D"margin-left: 90.0px;">
+<th class=3D"confluenceTh"><p><s><strong><span style=3D"color: rgb(51,51,51=
+);">Branches</span></strong></s></p></th>
+<td class=3D"confluenceTd"><p><s>*/master</s></p></td>
+</tr>
+<tr style=3D"margin-left: 90.0px;">
+<th class=3D"confluenceTh"><p><s><strong><span style=3D"color: rgb(51,51,51=
+);">Additional Behaviours</span></strong></s></p></th>
+<td class=3D"confluenceTd">
+<ul>
+<li><p><s><strong>Wipe out repository &amp; force clone</strong></s></p></l=
+i>
+</ul><p style=3D"margin-left: 30.0px;"><s><em><span style=3D"color: rgb(51,=
+51,51);">Delete the contents of the workspace before building, ensuring a f=
+ully fresh workspace.</span></em></s></p>
+<ul>
+<li><s><em><span style=3D"color: rgb(51,51,51);"><strong>Advanced sub-modul=
+es behaviours</strong></span></em></s>
+<ul>
+<li><s><em><span style=3D"color: rgb(51,51,51);"><strong>Recursively update=
+ submodules</strong></span></em></s></li>
+<li><s><em><span style=3D"color: rgb(51,51,51);"><strong>Shallow clone=EF=
+=BC=9B depth=3D1</strong></span></em></s></li>
+</ul></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"confluence-information-macro confluence-information-macro-inf=
+ormation">
+<span class=3D"aui-icon aui-icon-small aui-iconfont-info confluence-informa=
+tion-macro-icon"></span>
+<div class=3D"confluence-information-macro-body">
+<p>There=E2=80=98s=E2=80=99 something wrong with&nbsp;git submodules.Use 'g=
+it clone --recurse-submodules &lt;URL&gt;' directly on Build Shell.</p>
+<ul class=3D"inline-task-list" data-inline-tasks-content-id=3D"208876805">
+<li data-inline-task-id=3D"1"><span class=3D"placeholder-inline-tasks">See =
+how to configure git submodules in Jenkins later&nbsp;<a class=3D"confluenc=
+e-userlink user-mention current-user-mention" data-username=3D"suw" href=3D=
+"/display/~suw" data-linked-resource-id=3D"193209387" data-linked-resource-=
+version=3D"2" data-linked-resource-type=3D"userinfo" data-base-url=3D"https=
+://confluence.synaptics.com">Suzan Wu</a> </span></li>
+</ul>
+</div>
+</div>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h3 id=3D"id-[BaseImage]-BuildTriggers"><span style=3D"color: rgb(51,51,51)=
+;">Build Triggers</span></h3>
+<ul>
+<li><span style=3D"color: rgb(51,51,51);">Trigger builds remotely (e.g., fr=
+om scripts)</span>
+<ul>
+<li><span style=3D"color: rgb(51,51,51);">Authentication Token=EF=BC=9A<u>M=
+argaretCIHas25Characters</u></span></li>
+</ul></li>
+</ul>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h3 id=3D"id-[BaseImage]-BuildEnvironment"><span style=3D"color: rgb(51,51,=
+51);">Build Environment</span></h3>
+<ul>
+<li><span style=3D"color: rgb(51,51,51);">Delete workspace before build sta=
+rts</span></li>
+<li><span style=3D"color: rgb(51,51,51);">Abort the build if it's stuck</sp=
+an>
+<ul>
+<li><span style=3D"color: rgb(51,51,51);">No Activity</span></li>
+<li><span style=3D"color: rgb(51,51,51);">18000s</span></li>
+</ul></li>
+<li><span style=3D"color: rgb(51,51,51);">Add timestamps to the Console Out=
+put</span></li>
+</ul>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h3 id=3D"id-[BaseImage]-Build"><span style=3D"color: rgb(51,51,51);">Build=
+</span></h3>
+<ul>
+<li><p>Execute shell</p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">git clo=
+ne --recurse-submodules ssh://gitms@git.synaptics.com/git/sw/PinormOS/base/=
+base_img.git
+cd base_img
+make
+make deb</pre>=20
+</div>
+</div>
+<ul>
+<li><p>Execute shell</p></li>
+</ul>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">cd base=
+_img
+if $UploadAndTag =20
+then
+=09./scripts/upload.sh
+fi</pre>=20
+</div>
+</div>
+</div>=20
+</div>=20
+</div>=20
+<div class=3D"columnLayout single" data-layout=3D"single">=20
+<div class=3D"cell normal" data-type=3D"normal">=20
+<div class=3D"innerCell">=20
+<h3 id=3D"id-[BaseImage]-Post-buildActions"><span style=3D"color: rgb(51,51=
+,51);">Post-build Actions</span></h3>
+<ul>
+<li><span style=3D"color: rgb(51,51,51);">Editable Email Notification</span=
+></li>
+</ul>
+<div class=3D"table-wrap">
+<table class=3D"wrapped fixed-table confluenceTable" style=3D"margin-left: =
+60.0px;">
+<colgroup>
+<col style=3D"width: 161.0px;">
+<col style=3D"width: 246.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><span style=3D"color: rgb(51,51,51);">Project Fr=
+om</span></th>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh"><p>Project Recipient List</p></th>
+<td class=3D"confluenceTd"><a class=3D"external-link" href=3D"mailto:suw@sy=
+naptics.com" rel=3D"nofollow">suw@synaptics.com</a></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh"><span style=3D"color: rgb(51,51,51);">Project Re=
+ply-To List</span></th>
+<td class=3D"confluenceTd">$DEFAULT_REPLYTO</td>
+</tr>
+<tr>
+<th class=3D"confluenceTh"><span style=3D"color: rgb(51,51,51);">Content Ty=
+pe</span></th>
+<td style=3D"margin-left: 30.0px;" class=3D"confluenceTd">Both HTML and Pla=
+in Text&nbsp;</td>
+</tr>
+<tr>
+<th colspan=3D"1" class=3D"confluenceTh"><span style=3D"color: rgb(51,51,51=
+);">Default Subject</span></th>
+<td colspan=3D"1" class=3D"confluenceTd">$DEFAULT_SUBJECT</td>
+</tr>
+<tr>
+<th colspan=3D"1" class=3D"confluenceTh"><p>Default Content</p></th>
+<td colspan=3D"1" class=3D"confluenceTd">$DEFAULT_CONTENT</td>
+</tr>
+<tr>
+<th colspan=3D"1" class=3D"confluenceTh"><span style=3D"color: rgb(51,51,51=
+);">Attachments</span></th>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<th colspan=3D"1" class=3D"confluenceTh"><p>Attach Build Log</p></th>
+<td colspan=3D"1" class=3D"confluenceTd">Attach Build Log</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>=20
+</div>=20
+</div>=20
+</div>
+    </div>
+</body>
+</html>
+------=_Part_231754_1068976227.1676546109403--
