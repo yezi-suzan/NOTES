@@ -1,0 +1,276 @@
+<ac:layout><ac:layout-section ac:type="single"><ac:layout-cell>
+			<ac:link>
+				<ri:page ri:space-key="PRJRN" ri:content-title="[PinormOS Base] Build Info" />
+			</ac:link>
+		</ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell>
+			<h1><span style="letter-spacing: -0.01em;">Jenkins Project</span></h1>
+			<h2><span style="letter-spacing: -0.01em;"><strong>Info</strong></span></h2>
+			<table class="wrapped fixed-table" style="margin-left: 30.0px;">
+				<colgroup>
+					<col style="width: 138.0px;" />
+					<col style="width: 468.0px;" />
+				</colgroup>
+				<tbody style="margin-left: 30.0px;">
+					<tr style="margin-left: 30.0px;">
+						<th style="margin-left: 30.0px;">
+							<p>Name&nbsp;</p>
+						</th>
+						<td style="margin-left: 30.0px;">BaseImage</td>
+					</tr>
+					<tr style="margin-left: 30.0px;">
+						<th style="margin-left: 30.0px;"><span style="color: rgb(51,51,51);">Full project name</span>
+						</th>
+						<td style="margin-left: 30.0px;">PinormOS/BaseImage</td>
+					</tr>
+					<tr style="margin-left: 30.0px;">
+						<th style="margin-left: 30.0px;">Project URL&nbsp;&nbsp;</th>
+						<td style="margin-left: 30.0px;"><a
+								href="http://jenkins-sj2.synaptics.com:8080/job/PinormOS/job/BaseImage/">http://jenkins-sj2.synaptics.com:8080/job/PinormOS/job/BaseImage/</a>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<p><br /></p>
+			<p><br /></p>
+		</ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell>
+			<h2><strong>Configure&nbsp;</strong></h2>
+			<h3><strong>General</strong></h3>
+			<ul>
+				<li>
+					<p><span style="color: rgb(51,51,51);">This project is parameterized</span></p>
+				</li>
+			</ul>
+			<table class="wrapped fixed-table" style="margin-left: 60.0px;">
+				<colgroup>
+					<col style="width: 81.0px;" />
+					<col style="width: 117.0px;" />
+					<col style="width: 83.0px;" />
+					<col style="width: 726.0px;" />
+				</colgroup>
+				<tbody>
+					<tr>
+						<th colspan="1">
+							<p>Type</p>
+						</th>
+						<th>
+							<p>Name</p>
+						</th>
+						<th>
+							<p>Default</p>
+						</th>
+						<th colspan="1">
+							<p>Comment</p>
+						</th>
+					</tr>
+					<tr>
+						<td colspan="1">
+							<p>Node</p>
+						</td>
+						<td>
+							<p>NODE</p>
+						</td>
+						<td>
+							<p>bakery</p>
+						</td>
+						<td colspan="1">
+							<p>Where this job could potentially be executed on.&nbsp;<strong>Must be where the toolchain
+									is installed.</strong></p>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="1">
+							<p>Boolean</p>
+						</td>
+						<td colspan="1">
+							<p>UploadAndTag</p>
+						</td>
+						<td colspan="1">
+							<p>True</p>
+						</td>
+						<td colspan="1">
+							<p>If True, the .deb file will be uploaded to the apt repository, and a tag with
+								version-build will be added and pushed.</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<p><br /></p>
+			<p><br /></p>
+			<p><br /></p>
+		</ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell>
+			<h3><strong><span style="color: rgb(51,51,51);">Source Code Management</span></strong></h3>
+			<ul>
+				<li>None</li>
+				<li>
+					<p><s><span style="color: rgb(51,51,51);">Git&nbsp;</span>Repositorie</s></p>
+				</li>
+			</ul>
+			<table class="wrapped fixed-table" style="margin-left: 60.0px;">
+				<colgroup>
+					<col style="width: 171.0px;" />
+					<col style="width: 541.0px;" />
+				</colgroup>
+				<tbody>
+					<tr>
+						<th>
+							<p><s><strong><span style="color: rgb(51,51,51);">Repository URL</span></strong></s></p>
+						</th>
+						<td>
+							<p><s><a
+										href="ssh://gitms@git.synaptics.com/git/sw/PinormOS/base/base_img.git">ssh://gitms@git.synaptics.com/git/sw/PinormOS/base/base_img.git</a></s>
+							</p>
+						</td>
+					</tr>
+					<tr style="margin-left: 90.0px;">
+						<th>
+							<p><s><strong><span style="color: rgb(51,51,51);">Branches</span></strong></s></p>
+						</th>
+						<td>
+							<p><s>*/master</s></p>
+						</td>
+					</tr>
+					<tr style="margin-left: 90.0px;">
+						<th>
+							<p><s><strong><span style="color: rgb(51,51,51);">Additional Behaviours</span></strong></s>
+							</p>
+						</th>
+						<td>
+							<ul>
+								<li>
+									<p><s><strong>Wipe out repository &amp; force clone</strong></s></p>
+								</li>
+							</ul>
+							<p style="margin-left: 30.0px;"><s><em><span style="color: rgb(51,51,51);">Delete the
+											contents of the workspace before building, ensuring a fully fresh
+											workspace.</span></em></s></p>
+							<ul>
+								<li><s><em><span style="color: rgb(51,51,51);"><strong>Advanced sub-modules
+													behaviours</strong></span></em></s>
+									<ul>
+										<li><s><em><span style="color: rgb(51,51,51);"><strong>Recursively update
+															submodules</strong></span></em></s></li>
+										<li><s><em><span style="color: rgb(51,51,51);"><strong>Shallow clone；
+															depth=1</strong></span></em></s></li>
+									</ul>
+								</li>
+							</ul>
+						</td>
+					</tr>
+				</tbody>
+			</table><ac:structured-macro ac:name="info" ac:schema-version="1"
+				ac:macro-id="95089898-499c-4f63-8f90-8f13ed47465e"><ac:rich-text-body>
+					<p>There&lsquo;s&rsquo; something wrong with&nbsp;git submodules.Use 'git clone --recurse-submodules
+						&lt;URL&gt;' directly on Build Shell.</p><ac:task-list>
+						<ac:task>
+							<ac:task-id>1</ac:task-id>
+							<ac:task-status>incomplete</ac:task-status>
+							<ac:task-body><span class="placeholder-inline-tasks">See how to configure git submodules in
+									Jenkins later&nbsp;<ac:link>
+										<ri:user ri:userkey="00000000806d9e880180cc0a19af0023" />
+									</ac:link> </span></ac:task-body>
+						</ac:task>
+					</ac:task-list>
+				</ac:rich-text-body></ac:structured-macro>
+		</ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell>
+			<h3><span style="color: rgb(51,51,51);">Build Triggers</span></h3>
+			<ul>
+				<li><span style="color: rgb(51,51,51);">Trigger builds remotely (e.g., from scripts)</span>
+					<ul>
+						<li><span style="color: rgb(51,51,51);">Authentication
+								Token：<u>MargaretCIHas25Characters</u></span></li>
+					</ul>
+				</li>
+			</ul>
+		</ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell>
+			<h3><span style="color: rgb(51,51,51);">Build Environment</span></h3>
+			<ul>
+				<li><span style="color: rgb(51,51,51);">Delete workspace before build starts</span></li>
+				<li><span style="color: rgb(51,51,51);">Abort the build if it's stuck</span>
+					<ul>
+						<li><span style="color: rgb(51,51,51);">No Activity</span></li>
+						<li><span style="color: rgb(51,51,51);">18000s</span></li>
+					</ul>
+				</li>
+				<li><span style="color: rgb(51,51,51);">Add timestamps to the Console Output</span></li>
+			</ul>
+		</ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell>
+			<h3><span style="color: rgb(51,51,51);">Build</span></h3>
+			<ul>
+				<li>
+					<p>Execute shell</p>
+				</li>
+			</ul><ac:structured-macro ac:name="code" ac:schema-version="1"
+				ac:macro-id="8a19893a-0aff-4862-a55f-4c13c3ff59cf">
+				<ac:parameter ac:name="language">bash</ac:parameter><ac:plain-text-body>
+					<![CDATA[git clone --recurse-submodules ssh://gitms@git.synaptics.com/git/sw/PinormOS/base/base_img.git
+cd base_img
+make
+make deb]]>
+				</ac:plain-text-body>
+			</ac:structured-macro>
+			<ul>
+				<li>
+					<p>Execute shell</p>
+				</li>
+			</ul><ac:structured-macro ac:name="code" ac:schema-version="1"
+				ac:macro-id="df46ef1e-1b94-4d2b-9bd2-0c30988313a5">
+				<ac:parameter ac:name="language">bash</ac:parameter><ac:plain-text-body>
+					<![CDATA[cd base_img
+if $UploadAndTag  
+then
+	./scripts/upload.sh
+fi]]>
+				</ac:plain-text-body>
+			</ac:structured-macro>
+		</ac:layout-cell></ac:layout-section><ac:layout-section ac:type="single"><ac:layout-cell>
+			<h3><span style="color: rgb(51,51,51);">Post-build Actions</span></h3>
+			<ul>
+				<li><span style="color: rgb(51,51,51);">Editable Email Notification</span></li>
+			</ul>
+			<table class="wrapped fixed-table" style="margin-left: 60.0px;">
+				<colgroup>
+					<col style="width: 161.0px;" />
+					<col style="width: 246.0px;" />
+				</colgroup>
+				<tbody>
+					<tr>
+						<th><span style="color: rgb(51,51,51);">Project From</span></th>
+						<td><br /></td>
+					</tr>
+					<tr>
+						<th>
+							<p>Project Recipient List</p>
+						</th>
+						<td><a href="mailto:suw@synaptics.com">suw@synaptics.com</a></td>
+					</tr>
+					<tr>
+						<th><span style="color: rgb(51,51,51);">Project Reply-To List</span></th>
+						<td>$DEFAULT_REPLYTO</td>
+					</tr>
+					<tr>
+						<th><span style="color: rgb(51,51,51);">Content Type</span></th>
+						<td style="margin-left: 30.0px;">Both HTML and Plain Text&nbsp;</td>
+					</tr>
+					<tr>
+						<th colspan="1"><span style="color: rgb(51,51,51);">Default Subject</span></th>
+						<td colspan="1">$DEFAULT_SUBJECT</td>
+					</tr>
+					<tr>
+						<th colspan="1">
+							<p>Default Content</p>
+						</th>
+						<td colspan="1">$DEFAULT_CONTENT</td>
+					</tr>
+					<tr>
+						<th colspan="1"><span style="color: rgb(51,51,51);">Attachments</span></th>
+						<td colspan="1"><br /></td>
+					</tr>
+					<tr>
+						<th colspan="1">
+							<p>Attach Build Log</p>
+						</th>
+						<td colspan="1">Attach Build Log</td>
+					</tr>
+				</tbody>
+			</table>
+		</ac:layout-cell></ac:layout-section></ac:layout>
