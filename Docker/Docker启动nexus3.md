@@ -1,21 +1,34 @@
 # docker启动nexus3
 ## 参考
-	https://github.com/jenkinsci/docker/blob/master/README.md
+- https://github.com/jenkinsci/docker/blob/master/README.md
 ## 过程
-	1. 获取最新版的Image
+1. 获取最新版的Image
+
+	```console
 	docker pull jenkins/jenkins:lts-jdk11
-	2. 为持久化数据创建一个docker卷，
+	```
+2. 为持久化数据创建一个docker卷，
+	```console
 	docker volume create --name jenkins-master-data
-	3. 运行（ 
-		○ -d 在后台运行（分离运行detach）
-		○ -p 绑定端口
-		○ -v 绑定卷
-		○ --name 命名
-		○ --restart 重启策略
-	docker run -d -p 8080:8080 -p 50000:50000 --name jenkins-master -v jenkins-master-data:/var/jenkins_home  --restart=on-failure jenkins/jenkins:lts-jdk11
-	4. 查看日志
+	```
+3. 运行
+	```console
+	docker run -d -p 8080:8080 -p 50000:50000 --name jenkins-master -v jenkins-master-data:/var/jenkins_home --restart=on-failure jenkins/jenkins:lts-jdk11
+	```
+	> - -d 在后台运行（分离运行detach）
+	> - -p 绑定端口
+	> - -v 绑定卷
+	> - --name 命名
+	> - --restart 重启策略
+4. 查看日志
+	```console
 	docker logs -f jenkins-master
-	5. 测试是否启动
+	```
+5. 测试是否启动
+	```console
 	curl http://localhost:8081/
-	6. 停止（留出足够的时间让数据库完全关闭）
-docker container stop --time=120 nexus
+	```
+6. 停止（留出足够的时间让数据库完全关闭）
+	```console
+	docker container stop --time=120 nexus
+	```
