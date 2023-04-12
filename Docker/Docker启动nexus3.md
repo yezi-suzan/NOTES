@@ -1,6 +1,7 @@
 # docker启动nexus3
 ## 参考
-- https://github.com/jenkinsci/docker/blob/master/README.md
+- [https://github.com/jenkinsci/docker/blob/master/README.md](https://github.com/jenkinsci/docker/blob/master/README.md)
+
 ## 过程
 1. 获取最新版的Image
 
@@ -15,11 +16,11 @@
 	```console
 	docker run -d -p 8080:8080 -p 50000:50000 --name jenkins-master -v jenkins-master-data:/var/jenkins_home --restart=on-failure jenkins/jenkins:lts-jdk11
 	```
-	> - -d 在后台运行（分离运行detach）
-	> - -p 绑定端口
-	> - -v 绑定卷
-	> - --name 命名
-	> - --restart 重启策略
+	> - `-d` 在后台运行（分离运行detach）
+	> - `-p` 绑定端口
+	> - `-v` 绑定卷
+	> - `--name` 命名
+	> - `--restart` 重启策略
 4. 查看日志
 	```console
 	docker logs -f jenkins-master

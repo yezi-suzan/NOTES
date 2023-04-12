@@ -1,4 +1,4 @@
-> 语法参考（繁体）https://github.com/othree/markdown-syntax-zhtw/tree/master
+> [*语法参考（繁体）*](https://github.com/othree/markdown-syntax-zhtw/tree/master)
 
 下面是 类 Setext 风格的标题
 
@@ -22,6 +22,8 @@
 	##### 五级标题
 	###### 六级标题
 
+展示：
+
 # 一级标题
 ## 二级标题
 ### 三级标题
@@ -29,9 +31,15 @@
 ##### 五级标题
 ###### 六级标题
 
-这里是正文: *斜体* **加粗** `inlinecode` `行内代码`
+这里是正文: 
 
-\* 在特殊字符前插入反斜杠来表示该字符本身
+*斜体* 
+
+**加粗** 
+
+`inlinecode` `行内代码`
+
+\* 在特殊字符`*`前插入反斜杠(`\`)来表示该字符本身
 
 1. 有序列表
 2. 有序列表
