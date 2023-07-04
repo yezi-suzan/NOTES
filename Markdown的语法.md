@@ -1,4 +1,8 @@
 > [*语法参考（繁体）*](https://github.com/othree/markdown-syntax-zhtw/tree/master)
+> 
+> [Markdown 官方教程](https://markdown.com.cn/extended-syntax/tables.html)
+>
+> [Markdown 教程(菜鸟)](https://www.runoob.com/markdown/md-tutorial.html)
 
 下面是 类 Setext 风格的标题
 
@@ -39,7 +43,9 @@
 
 `inlinecode` `行内代码`
 
-\* 在特殊字符`*`前插入反斜杠(`\`)来表示该字符本身
+~~删除的内容~~
+
+\*  在特殊字符`*`前插入反斜杠(`\`)来表示该字符本身
 
 1. 有序列表
 2. 有序列表
@@ -77,3 +83,17 @@ public class A(){
 	}
 }
 ```
+表格
+----
+|表头|表头|表头|
+|---   |---|---|
+|单元格|单元格|单元格|
+
+
+|   	|   	|   	|   	|   	|
+|---	|---	|---	|---	|---	|
+|   	|   	|   	|   	|   	|
+|   	|   	|   	|   	|   	|
+|   	|   	|   	|   	|   	|
+
+[表格生成器](https://www.tablesgenerator.com/markdown_tables)
